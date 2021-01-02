@@ -1,0 +1,22 @@
+* {box-sizing: border-box}
+body {
+    font-family: 'Courier New', Courier, monospace ;
+    background-color: dimgray;
+}
+.leftpart {
+    height: 100%;
+    width: 1000px;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+.leftpart img {
+    position: center;
+    
+}
+
+.rightpart {
+    margin-left: 200px;
+    padding-left: 20px;
+
+}
