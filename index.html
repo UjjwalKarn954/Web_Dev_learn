@@ -1,34 +1,35 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
         <link rel="stylesheet" type="text/css" href="index.css">
         <title>RideMent (Equipments that adds Excitement to your ride)</title>
     </head>
     <body>
-        <div class="leftpart">
-            <img src="ridement1.jpg" alt="Bike picture" width="50%" height="50%" >
-
-        </div>
-        <div class="rightpart">
-            <h1>Welcome!</h1>
-            <h1>LOGIN</h1>
-            <div class="container">
-                <lebel for="usname"><b>USERNAME</b></lebel>
-                <input type="text" placeholder="Enter User Name" name="usname" required>
-                <label for="pwd"><b>PASSWORD</b></label>
-                <input type="text" placeholder="Enter Password" name="pwd" required>
-                
-                <button  type="submit">Login</button>
-                <label>
-                    <input type="checkbox" checked="checked" name="remember">Remember Me
-                </label>
-
-                <div class="container" style="background-colour:#f1f1f1">
-                    <button type="button" class="cancelbtn">Cancel</button>
-                    <span class="psw">Forgot <a href="#">Password?</a></span>
-                </div>
-            </div>
-        </div>
+    <div class="topnav" id="mynav">
+        <a href="#home" class="active">Home</a>
+        <a href="#introduction">Introduction</a>
+        <a href="#login">Login/Register</a>
+        <a href="#about">About</a>
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+        <i class="fa fa-bars"></i>
+    </a> 
+    </div>
+        <div class="Complete-page">
+       <div class="Introduction-page"><p></p></div>
+       <div class="Login-page"><p></p></div>
+       
+        </div>  
+     <script>
+        function myFunction(){
+            var x=getElementById("mynav");
+            if(x.className ==="topnav"){
+                x.className +="responsive";
+            }else{
+                x.className="topnav";
+            }
+        }
+    </script>
     </body>
 </html>
