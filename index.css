@@ -3,32 +3,33 @@
     margin: 0;
     box-sizing: border-box;
 }
-nav {
+
+nav{
+    display: flex;
+    background: red;
     padding: 10px;
+    justify-content: space-between;
+}
+
+.links{
     display: flex;
-    justify-content: space-around;
-    background-color: rgb(255, 70, 2);
-    color: rgb(243, 237, 237);
     align-items: center;
-    letter-spacing: 4px;
+    font-size: large;
+    letter-spacing: 2px;
 
 }
-.companyname {
-    display: flex;
-    justify-content: space-around;
-    width: 100%;
- 
-
+.bars{
+    margin-left: 20px;
 }
-.links {
-    width: 25px;
-    height: 30px;
-    background-color: rgb(255, 70, 2);
+a{
+    color: white;
+    text-decoration: none;
 }
-.links div{
-    width: 25px;
+.bars div{
+    background-color: white;
     height: 2px;
+    width: 25px;
     margin: 5px;
-    background-color: rgb(243, 237, 237);
-    
 }
+
+
